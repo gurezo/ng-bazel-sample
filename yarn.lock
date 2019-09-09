@@ -907,31 +907,33 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bazel/bazel-darwin_x64@0.30.0-beta.0":
-  version "0.30.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@bazel/bazel-darwin_x64/-/bazel-darwin_x64-0.30.0-beta.0.tgz#a3ff8a01ab05c667869a2bb8f69256ff1d4ecaa5"
-  integrity sha512-5WUTv8wGlQcKmyrn95nyl3Mjc2+MQLEpHJZyDjSzCrrx8NeaiwappBLQKib+8OlQeBCbQw4u3k3j2P8BmuzQlg==
+"@bazel/bazel-darwin_x64@1.0.0-rc1":
+  version "1.0.0-rc1"
+  resolved "https://registry.yarnpkg.com/@bazel/bazel-darwin_x64/-/bazel-darwin_x64-1.0.0-rc1.tgz#2aed09451759d479305722dd0f058d8d5bae00cb"
+  integrity sha512-ndHjkdXOZGDMKYWqyvxPpI13gjOQVSrcpa6Krpys89YWWod4SOS4mB529BbQiXkzFzZXOKbVgd/8HkiS5xodHA==
 
-"@bazel/bazel-linux_x64@0.30.0-beta.6":
-  version "0.30.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@bazel/bazel-linux_x64/-/bazel-linux_x64-0.30.0-beta.6.tgz#279ee19909f44d92655e40a6c3378a2a35e0bacf"
-  integrity sha512-J4d11mSvPifuEZU7YsuEGxPH1ru3/lwFGjWxpH+9A5/Hptlnyc4FyYUJ4JVmaf/P2RMUUJXpYmCSy4uBfCKxfg==
+"@bazel/bazel-linux_x64@1.0.0-rc1":
+  version "1.0.0-rc1"
+  resolved "https://registry.yarnpkg.com/@bazel/bazel-linux_x64/-/bazel-linux_x64-1.0.0-rc1.tgz#419d812fcb9f4f50a48307c0d22f9d0b390883a6"
+  integrity sha512-bH2BynHkLh+VwulBcg3lkCh8cczzQIaPViEyBMLH/aXPs+LjNvXql4R+z64kiqeqE2La50+sUpJ+8YKW9HC1Lg==
 
-"@bazel/bazel-win32_x64@0.19.1":
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/@bazel/bazel-win32_x64/-/bazel-win32_x64-0.19.1.tgz#273c43b0febc11675614c402ec82ae44b519f9ee"
-  integrity sha512-t6vOh2IOzUAk19ccS0q3Kho364Yxjtjv1v4utAjOSNw8GVwutfekdiojGBrR8ihvJi1Xp885mOkQnZA38B9tvQ==
+"@bazel/bazel-win32_x64@1.0.0-rc1":
+  version "1.0.0-rc1"
+  resolved "https://registry.yarnpkg.com/@bazel/bazel-win32_x64/-/bazel-win32_x64-1.0.0-rc1.tgz#af0629f72fedd48a2a526d888176dd9d657dd7e6"
+  integrity sha512-2M8wTj6esFED884t9pKr4e1qtPodjjjZiRQ0xUgnv6YLGn0Q9LK4g/6PV38Ul+mUh/7xMxFjAt9SaxD2GAAzrQ==
 
-"@bazel/bazel@^0.30.0-beta.6":
-  version "0.30.0-beta.6"
-  resolved "https://registry.yarnpkg.com/@bazel/bazel/-/bazel-0.30.0-beta.6.tgz#a9c33e22b1165a4c72f4b087acc85dd251f95187"
-  integrity sha512-W9HdS+tbmopJbExNovlIlV40brFH6/yEm6qFhmxi7c9/FgzoQ6dgRKqnlhScd1u6nwBEdhh/GeU1ajw0bVUE/Q==
+"@bazel/bazel@^1.0.0-rc1":
+  version "1.0.0-rc1"
+  resolved "https://registry.yarnpkg.com/@bazel/bazel/-/bazel-1.0.0-rc1.tgz#f62039ec6f63538dae23ef67675ac4ee8a2a2390"
+  integrity sha512-+hofGW2PGXfBB3LpgTeF5phYjJb2k4reOYgXJWs3ZNeU0BDFOCg9gJuOWI4WM94EMwUUbJsuKqKfFPeW5ZRn5g==
+  dependencies:
+    "@bazel/hide-bazel-files" latest
   optionalDependencies:
-    "@bazel/bazel-darwin_x64" "0.30.0-beta.0"
-    "@bazel/bazel-linux_x64" "0.30.0-beta.6"
-    "@bazel/bazel-win32_x64" "0.19.1"
+    "@bazel/bazel-darwin_x64" "1.0.0-rc1"
+    "@bazel/bazel-linux_x64" "1.0.0-rc1"
+    "@bazel/bazel-win32_x64" "1.0.0-rc1"
 
-"@bazel/hide-bazel-files@0.37.0":
+"@bazel/hide-bazel-files@0.37.0", "@bazel/hide-bazel-files@latest":
   version "0.37.0"
   resolved "https://registry.yarnpkg.com/@bazel/hide-bazel-files/-/hide-bazel-files-0.37.0.tgz#3c30a3f64f0b976c8c0e8dd236b0f26db0f6f860"
   integrity sha512-aVReQa7UxWjBNTsZTAmFKHujTaDxlMUEq2BgvP7mYp1nnZjsCI30SjzPkTn77Ghw4/lK8lhht7AdfWPQp271pQ==
@@ -941,10 +943,10 @@
   resolved "https://registry.yarnpkg.com/@bazel/ibazel/-/ibazel-0.10.3.tgz#2e2b8a1d3e885946eac41db2b1aa6801fb319887"
   integrity sha512-v1nXbMTHVlMM4z4uWp6XiRoHAyUlYggF1SOboLLWRp0+D22kWixqArWqnozLw2mOtnxr97BdLjluWiho6A8Hjg==
 
-"@bazel/karma@^0.30.0-beta.6":
-  version "0.30.2"
-  resolved "https://registry.yarnpkg.com/@bazel/karma/-/karma-0.30.2.tgz#3aa074d9e76f53c0faa985bb6bcbb82194e68f16"
-  integrity sha512-8Sr0m0aAbm/whOkcate5LPtGghpHjJeSuWJ1XfxPGlQ+rXDUEFjvACbufONwzki4FbLOk5mMIiWWTGy0o/kIqw==
+"@bazel/karma@^0.37.0":
+  version "0.37.0"
+  resolved "https://registry.yarnpkg.com/@bazel/karma/-/karma-0.37.0.tgz#e420e32f4309fa28a980ee47072865b2aa3cb858"
+  integrity sha512-XBQpEVyQCYNlN6bzz+1AGLBLCCd4CAvlp7ubklLGCFXuFKOnvU/ADaN0t/t7V3Pjx+uZqgAHamOFQla+21UXDg==
   dependencies:
     jasmine-core "2.8.0"
     karma "^4.0.0"
