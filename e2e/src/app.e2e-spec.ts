@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('Welcome to ng-bazel-sample!');
+    expect(page.getTitleText()).toEqual('ng-bazel-sample app is running!');
   });
 
   afterEach(async () => {
