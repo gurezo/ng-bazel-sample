@@ -845,33 +845,38 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bazel/bazel-darwin_x64@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@bazel/bazel-darwin_x64/-/bazel-darwin_x64-1.0.0.tgz#8ab7ecba867130d87e3ecd6cfd5757e59ea274ab"
-  integrity sha512-2J8qPpUAhSsuZ1P0kMFLvAQUz8zB8mkKmGL3/8raXUnw9TblsykwAdeg3QlJwTLORn+ZqdAjOYEQIarnTpS1NA==
+"@bazel/bazel-darwin_x64@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bazel/bazel-darwin_x64/-/bazel-darwin_x64-1.1.0.tgz#9402ecadfaf0383bc366ef5b37b933e0d0e804fc"
+  integrity sha512-/dnpkjqnl2Qrcy+qFerOe+lV9QZ2HoUHtTplQgRxa+OH8AtQ7mcopdJ9/3Y10GqgT2Kp+AR6G99R59/Si+BOMg==
 
-"@bazel/bazel-linux_x64@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@bazel/bazel-linux_x64/-/bazel-linux_x64-1.0.0.tgz#7043cc41eaf7b1d2618766e0759d513873bb9659"
-  integrity sha512-/ZpOrYyDNGqUyAGPHFr4Y1kn8xCG1G4Lg2VMZtfCZzDohzoYFYs8iyQGU2/8PwldH8XX+oJT9atWqSt1EyoeAw==
+"@bazel/bazel-linux_x64@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bazel/bazel-linux_x64/-/bazel-linux_x64-1.1.0.tgz#98d75240e3e9ff5ba14fa48d6241d5d741e89926"
+  integrity sha512-yDR1URphRQTkXYjl4U2NLmbGR8ar8imhytK3txZZqlPf5pfWI/7wa7gSg0H4VbRRLIGAy/nD2eXZpgSj1eUiqA==
 
-"@bazel/bazel-win32_x64@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@bazel/bazel-win32_x64/-/bazel-win32_x64-1.0.0.tgz#1111e4910c155a1917162ae96fd3737d062d20dd"
-  integrity sha512-p5LpQ/WiijwOS+eBkdD7UewHL8JwK+8gpb4tIKqgh/a2yawgzEQPJDPBUV9ykss5t+s85BL2kEMhduuDewt/MA==
+"@bazel/bazel-win32_x64@1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bazel/bazel-win32_x64/-/bazel-win32_x64-1.1.0.tgz#e9c80a8c6495834ee7fc6184c425284d1151ac38"
+  integrity sha512-mj3ujcifKO+hjAjHvLoutYxzs90YWuc/fYJuVaEQrk4YFrRW5g70OpjN74zzBHRstObOjSZ3cOj+HDB19SIFKw==
 
-"@bazel/bazel@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@bazel/bazel/-/bazel-1.0.0.tgz#7c6e306d8ced3a6e087f041861364ef742560342"
-  integrity sha512-bxNjlieM1HwgIgqx+AqtNeUA6bvqIQ0X5YysWuCCtT24Dd+wTs6fRSx1KGOA1NiRBrg+kpk7ebitOU8yaM+tiA==
+"@bazel/bazel@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@bazel/bazel/-/bazel-1.1.0.tgz#9ce8308e44d76132812e908fcbc9e9051c7c2e1a"
+  integrity sha512-3NOWRHG1i/tAVQWuStIUuliFLVfjcKMbqIlc2Q206VWQ5pjlKgo0qa+qrWb0G6BYq+N3hxT4IwBz+Z17A8dbbg==
   dependencies:
     "@bazel/hide-bazel-files" latest
   optionalDependencies:
-    "@bazel/bazel-darwin_x64" "1.0.0"
-    "@bazel/bazel-linux_x64" "1.0.0"
-    "@bazel/bazel-win32_x64" "1.0.0"
+    "@bazel/bazel-darwin_x64" "1.1.0"
+    "@bazel/bazel-linux_x64" "1.1.0"
+    "@bazel/bazel-win32_x64" "1.1.0"
 
-"@bazel/hide-bazel-files@^0.38.1", "@bazel/hide-bazel-files@latest":
+"@bazel/hide-bazel-files@^0.39.1":
+  version "0.39.1"
+  resolved "https://registry.yarnpkg.com/@bazel/hide-bazel-files/-/hide-bazel-files-0.39.1.tgz#90b14d5031a903e78e1abfe740662c92292cc1c8"
+  integrity sha512-nmILMfF8wD3hR3+r0MUCqPahgBYszLKFBcrbnmYthG6Oujgy1NpYMjeWj7Hjt3pJMkT1MgQP/VipLu2gQyMc0Q==
+
+"@bazel/hide-bazel-files@latest":
   version "0.38.3"
   resolved "https://registry.yarnpkg.com/@bazel/hide-bazel-files/-/hide-bazel-files-0.38.3.tgz#e98231d3d360d51860d9c1a7c3345b40dab4cf81"
   integrity sha512-o+dNkfDm3qxWQ8h/04cWuTcjR7qnjZi3pQGv4aklVb16oPWx2jF8BzbkwvWuIkdbOl9VnqYP0vaHzwQVJRRcIA==
@@ -881,10 +886,10 @@
   resolved "https://registry.yarnpkg.com/@bazel/ibazel/-/ibazel-0.10.3.tgz#2e2b8a1d3e885946eac41db2b1aa6801fb319887"
   integrity sha512-v1nXbMTHVlMM4z4uWp6XiRoHAyUlYggF1SOboLLWRp0+D22kWixqArWqnozLw2mOtnxr97BdLjluWiho6A8Hjg==
 
-"@bazel/karma@^0.38.1":
-  version "0.38.3"
-  resolved "https://registry.yarnpkg.com/@bazel/karma/-/karma-0.38.3.tgz#4db94a2227d7e8863505dfcfe9de81a2cb1f7d0b"
-  integrity sha512-5ywjZsigJpdG4wr1iy2UNkfEgQcBvRjHoVfUQqLF1Dp0uBdqG7Qq2quu0Zypd/UodbvTye1pHWQ+Lq7cEz6JWg==
+"@bazel/karma@^0.39.1":
+  version "0.39.1"
+  resolved "https://registry.yarnpkg.com/@bazel/karma/-/karma-0.39.1.tgz#23898875444a5ef1fd9ac0dbaebcdd05b90d51f8"
+  integrity sha512-P4LNCeopKGmhwRJrA6qtMLAvMgIalq5I9XYlaPOLjkoYKcjwAReBKyWY9VYhDEYld2P/P1YJmx/+nQDZAowocA==
   dependencies:
     jasmine-core "2.8.0"
     karma "~4.1.0"
@@ -898,17 +903,17 @@
     semver "5.6.0"
     tmp "0.0.33"
 
-"@bazel/protractor@^0.38.1":
-  version "0.38.3"
-  resolved "https://registry.yarnpkg.com/@bazel/protractor/-/protractor-0.38.3.tgz#e9599271e87527378e56d97de960919f72256746"
-  integrity sha512-vs5Zi9Gw3FZ0OnmdJxDzOZJaA2Aeqq3GcAvK8jlQ6fzVc9w8TP6BmAhraOHJYFPj5rMz2fQF/e3Ovrtn4KA3Zw==
+"@bazel/protractor@^0.39.1":
+  version "0.39.1"
+  resolved "https://registry.yarnpkg.com/@bazel/protractor/-/protractor-0.39.1.tgz#24988e12eaa3efbcdbb7e80dba20105e379e4016"
+  integrity sha512-zVbCrK8Uyfd2D93laHYp+YLvoR2Pfov/i13b6MTDkgDkzWd0NoPIlPqLAXuKhOUi5rYUcbp+DoY9A+HA2Rfy1g==
   dependencies:
     protractor "^5.4.2"
 
-"@bazel/typescript@^0.38.1":
-  version "0.38.3"
-  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.38.3.tgz#0e452413ca81fc9429404ceabf60ebfb4f13474a"
-  integrity sha512-sFPYNDEE5h/k+Arop3q8XWaqoTwSy0IUS0a/YSeLhR/yz7pNmOltjPyeseLmo004BhgH7X4X+LjUQjcgv7lpXw==
+"@bazel/typescript@^0.39.1":
+  version "0.39.1"
+  resolved "https://registry.yarnpkg.com/@bazel/typescript/-/typescript-0.39.1.tgz#fbe3f9e287aa294935987bbbd9f2dce5341a9b02"
+  integrity sha512-n4P6VKir1L3+rM/DgHa5mnlCfT7Wo0ra+TnkbTuZ08SeN/r8HTmClK6YADoDc5ORMQhzq8eXuVuLWeUUsFJyHQ==
   dependencies:
     protobufjs "6.8.8"
     semver "5.6.0"
@@ -1072,10 +1077,15 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/jasmine@*", "@types/jasmine@~3.4.0":
+"@types/jasmine@*":
   version "3.4.4"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.4.4.tgz#be3fbd73e72725edb44e6f7f509cd52912d1550c"
   integrity sha512-+/sHcTPyDS1JQacDRRRWb+vNrjBwnD+cKvTaWlxlJ/uOOFvzCkjOwNaqVjYMLfsjzNi0WtDH9RyReDXPG1Cdug==
+
+"@types/jasmine@~3.4.5":
+  version "3.4.5"
+  resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-3.4.5.tgz#589cd518a725ceaf7605997e441a09d7f530483c"
+  integrity sha512-ljf19razYUgsBv5ofh6oqsd5KMM2Q7A/s2yKI+89v6PFr9jrTGLIIr1P4aR7g3J79s89fC61TX+bjqq+4jxFdQ==
 
 "@types/jasminewd2@~2.0.3":
   version "2.0.8"
@@ -1094,7 +1104,7 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
-"@types/node@*", "@types/node@~12.11.1":
+"@types/node@*":
   version "12.11.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.11.5.tgz#6c3c8dc84988aff11fd2a63d7b5fbf39eaaab7b1"
   integrity sha512-LC8ALj/24PhByn39nr5jnTvpE7MujK8y7LQmV74kHYF5iQ0odCPkMH4IZNZw+cobKfSXqaC8GgegcbIsQpffdA==
@@ -1108,6 +1118,11 @@
   version "10.14.22"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.14.22.tgz#34bcdf6b6cb5fc0db33d24816ad9d3ece22feea4"
   integrity sha512-9taxKC944BqoTVjE+UT3pQH0nHZlTvITwfsOZqyc+R3sfJuxaTtxWjfn1K2UlxyPcKHf0rnaXcVFrS9F9vf0bw==
+
+"@types/node@~12.12.5":
+  version "12.12.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.12.5.tgz#66103d2eddc543d44a04394abb7be52506d7f290"
+  integrity sha512-KEjODidV4XYUlJBF3XdjSH5FWoMCtO0utnhtdLf1AgeuZLOrRbvmU/gaRCVg7ZaQDjVf3l84egiY0mRNe5xE4A==
 
 "@types/q@^0.0.32":
   version "0.0.32"
