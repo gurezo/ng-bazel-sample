@@ -1,7 +1,6 @@
-# ng-bazel-sample
-this is angular opt in bazel sample
+# NgBazelSample
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.0-next.8.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0-next.0.
 
 ## Development server
 
